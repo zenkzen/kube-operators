@@ -1,0 +1,7 @@
+apiVersion: my.domain/v1
+kind: Webserver
+metadata:
+  name: webserver-sample
+spec:
+  image: nginx:1.23.1
+  replicas: 2
